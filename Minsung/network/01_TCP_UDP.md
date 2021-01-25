@@ -44,7 +44,7 @@ TCP의 여러 특징을 알아봅시다.
 
 TCP Header에는 어떤 필드들이 있고 어떤 역할을 하는지 알아봅시다.
 
-#### ![TCP Header [정보통신기술용어해설]](https://lh3.googleusercontent.com/proxy/fWBnZzalyONuZsM4buQH4lc7Ddkd9n_IP-JXfKNel-qdMZkChoJ8-hZtTr3RHdtd8ZDpdeG3RcSiUh0momdcPqviPQ)
+#### ![TCP Header](../images/network/01_TCP_header.jpg)
 
 | 필드명                 | 크기(bit) | 기능                                                   |
 | ---------------------- | --------- | ------------------------------------------------------ |
@@ -92,7 +92,7 @@ TCP가 데이터의 유실과 순서 변화를 바로 잡았던 것에 비해 UD
 
 UDP Header는 TCP에 비해 비교적 단순하고 간단합니다.
 
-![img](http://www.ktword.co.kr/img_data/323_2.jpg)
+![UDP Header](../images/network/01_UDP_header.jpg)
 
 헤더에 Option이 없기 때문에 8바이트로 고정이고, 그렇기 때문에 패킷 전체 길이를 알면 데이터의 크기 역시 구할 수 있습니다.
 
