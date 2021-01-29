@@ -9,10 +9,6 @@ TCP 통신을 이용하여 데이터를 전송하기 위해 네트워크 연결�
 
 
 
-
-
-
-
 #### 용어 정리
 
 - SYN(Synchronize Sequence Number)

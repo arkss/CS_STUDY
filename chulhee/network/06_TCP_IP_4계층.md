@@ -20,7 +20,7 @@
 
 TCP/IP가 OSI 7계층보다 먼저 개발되었다고 합니다. 하지만 OSI 7 계층을 간소화한 모델처럼 보이기도 합니다.
 
-<img src="/Users/chulheelee/Repository/CS_STUDY/chulhee/assets/network/06_tcp_ip.png" alt="image-20210129212531066" style="zoom:30%;" />
+<img src="../assets/network/06_tcp_ip.png" alt="image-20210129212531066" style="zoom:30%;" />
 
 실제로 각 계층이 정확하게 일치하지는 않습니다.
 
