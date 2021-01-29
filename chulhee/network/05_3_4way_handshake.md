@@ -11,25 +11,6 @@ TCP 통신을 이용하여 데이터를 전송하기 위해 네트워크 연결�
 
 
 
-## 1. 3-way handshake
-
-2대의 장비, 혹은 호스트가 TCP 통신을 하기 위해서는 **연결** 과정이 선행되어야 하며, 
-이 때 3-way handshake 가 일어나게 됩니다.
-
-
-
-#### 과정
-
-![3-way-handshaking](../assets/network/05_3_way.png)
-
-|      | 송신자 | 수신자 | 내용                                                         |
-| ---- | ------ | ------ | ------------------------------------------------------------ |
-| 1    | A      | B      | - A 에서 연결 요청 메시지 SYN 전송<br />- sequence number 는 임의의 값. syn 플래그 비트를 1로 설정하여 세그먼트 전송<br />- 포트 상태<br />- 포트 상태 A : CLOSED, B : LISTEN -> SYN_RCV |
-| 2    | B      | A      | - 접속 요청을 받은 B 가 요청을 수락.<br />- A 도 포트를 열어 달라는 메시지 전송<br />- SYN  + ACK 전달 (ACK = seq + 1)<br />- 포트 상태 A : CLOSED -> ESTABLISHED, B : SYN_RCV |
-| 3    | A      | B      | - A가 수락 확인을 보내 연결을 맺음<br />- 전송할 데이터가 있다면 이때부터 전송 가능<br />- 포트 상태 A : ESTABLISHED, B : ESTABLISHED |
-
-
-
 
 
 #### 용어 정리
@@ -54,7 +35,42 @@ TCP 통신을 이용하여 데이터를 전송하기 위해 네트워크 연결�
 
     
 
+## 1. 3-way handshake
 
+2대의 장비, 혹은 호스트가 TCP 통신을 하기 위해서는 **연결** 과정이 선행되어야 하며, 
+이 때 3-way handshake 가 일어나게 됩니다.
+
+
+
+#### 과정
+
+![3-way-handshaking](../assets/network/05_3_way.png)
+
+|      | 송신자 | 수신자 | 내용                                                         |
+| ---- | ------ | ------ | ------------------------------------------------------------ |
+| 1    | A      | B      | - A 에서 연결 요청 메시지 SYN 전송<br />- sequence number 는 임의의 값. syn 플래그 비트를 1로 설정하여 세그먼트 전송<br />- 포트 상태<br />- 포트 상태 A : CLOSED, B : LISTEN -> SYN_RCV |
+| 2    | B      | A      | - 접속 요청을 받은 B 가 요청을 수락.<br />- A 도 포트를 열어 달라는 메시지 전송<br />- SYN  + ACK 전달 (ACK = seq + 1)<br />- 포트 상태 A : CLOSED -> ESTABLISHED, B : SYN_RCV |
+| 3    | A      | B      | - A가 수락 확인을 보내 연결을 맺음<br />- 전송할 데이터가 있다면 이때부터 전송 가능<br />- 포트 상태 A : ESTABLISHED, B : ESTABLISHED |
+
+
+
+### 포트 상태 정보
+
+#### CLOSED
+
+연결되지 않은 상태
+
+#### LISTEN
+
+수신측에서 송신측의 요청을 기다리는 상태
+
+#### SYN_RCV
+
+요청을 정상적으로 수신함
+
+#### ESTABLISHED
+
+포트 연결 성립의 확인
 
 
 
@@ -92,6 +108,21 @@ A : 클라이언트 ,  B: 서버
 
 
 
+### 포트 상태 정보
+
+#### FIN_WAIT_1, CLOSE_WAIT, FIN_WAIT_2
+
+서버에서 연결을 종료하기 위해 클라이언트에게 종결을 요청하고 회신을 받아 종료하는 과정의 상태
+
+#### TIME_WAIT
+
+누락된 패킷이 있을 수도 있기에 소켓이 특정 시간동안 열려있는 상태
+
+#### LAST_ACK
+
+FIN 을 보낸 이후의 상태로,
+연결 종료 요구의 승인을 원하는 상태.
+
 
 
 
@@ -100,7 +131,7 @@ A : 클라이언트 ,  B: 서버
 
 - http://www.deadfire.net/tcpip/tcpip20.html
 - https://gmlwjd9405.github.io/2018/09/19/tcp-connection.html
-- 
+- [포트상태] http://blog.naver.com/PostView.nhn?blogId=ncloud24&logNo=221388026417&parentCategoryNo=&categoryNo=79&viewDate=&isShowPopularPosts=false&from=postView
 
 
 
