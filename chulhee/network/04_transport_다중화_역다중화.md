@@ -151,6 +151,8 @@ TCP 소켓에서 생성되는 세그먼트는 4가지 요소를 포함하게 됩
 
 
 
+
+
 ## 레퍼런스
 
 - https://donghoson.tistory.com/37
