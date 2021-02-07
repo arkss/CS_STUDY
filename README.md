@@ -22,14 +22,20 @@
 | 01.18 | 회의    | 스터디 진행 방식 확정                                        | 성준님 참관 |
 | 01.22 | network | TCP_UDP, OSI_7계층                                           | -           |
 | 01.29 | network | Flow control vs Congestion control, transport 계층의 다중화와 역다중화, 3,4 way handshake, TCP/IP 4계층 | -           |
+| 02.05 | DB      | index, 정규화                                                | -           |
 |       |         |                                                              |             |
 
 
 
 ### 다음주 학습 내용
 
-* index
-* 정규화
+* 시스템콜
+
+* 사용자모드, 커널모드
+
+* 프로세스와 스레드
+
+  
 
 
 
