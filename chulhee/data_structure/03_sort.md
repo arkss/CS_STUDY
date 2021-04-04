@@ -62,7 +62,9 @@ arr = [15, 12, 24, 5, 17, 48, 20]
 
 **따라서 공간 복잡도 O(n)을 갖는다고 하며, 시간 복잡도는 항상 O(n*log n)을 갖습니다.**
 
+![image-20210404233634226](../assets/data_structure/merge_sort.png)
 
+사진 출처 : https://gmlwjd9405.github.io/2018/05/08/algorithm-merge-sort.html
 
 
 
@@ -104,6 +106,8 @@ L과 R이 만나면 피봇과 R을 교환합니다.
 힙을 구성하는 평균 시간은 O(log n) 입니다. 
 
 삭제 연산 및 재구성하는 연산에 대해서 힙의 재배열 과정과 동일하게 **시간 복잡도는 O(n log n)을 갖게 됩니다.**
+
+
 
 
 
@@ -197,4 +201,5 @@ CPU가 미래에 원하는 데이터를 예측하여 속도가 빠른 장치인 
 
 - [tim sort - https://d2.naver.com/helloworld/0315536](https://d2.naver.com/helloworld/0315536)
 - 자바로 배우는 쉬운 자료구조, 한빛 아카데미
+- https://gmlwjd9405.github.io/2018/05/08/algorithm-merge-sort.html
 

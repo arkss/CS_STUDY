@@ -55,7 +55,7 @@
 
 ```c
 int delete(int *n){
- int first, temp, parent, child;
+  int first, temp, parent, child;
 
   first = heap[1];
 	temp = heap[(*n)--];
@@ -95,7 +95,7 @@ int delete(int *n){
 
 또한, 삽입 위치를 탐색하기 위해 최악의 경우 모든 인덱스를 탐색해야 합니다.
 
-삭제 시 시갖 복잡도 : O(1)
+삭제 시 시간 복잡도 : O(1)
 
 삽입 시 최악 시간 복잡도 : O(n)
 
