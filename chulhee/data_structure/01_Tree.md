@@ -53,7 +53,7 @@
 - 완전 이진 트리
   - 높이 h, 노드 수가 n 개 일때, 노드 n 번까지 빈 곳 없이 모두 위치와 그 노드가 일치하는 트리이다.
 
-<img src="/Users/chulheelee/Repository/CS_STUDY/Chulhee/assets/data_structure/complete_bi_tree.png" alt="image-20210404151945212" style="zoom:33%;" />
+<img src="../assets/data_structure/complete_bi_tree.png" alt="image-20210404151945212" style="zoom:33%;" />
 
 - 편향 이진 트리
   - 최소 노드 개수를 가지면서 왼쪽, 혹은 오른쪽 서브 트리만 갖는 트리
