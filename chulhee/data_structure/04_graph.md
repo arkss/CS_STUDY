@@ -126,6 +126,8 @@ bfs(graph, 1, visited)
 
 
 
+### Prim 알고리즘
+
 
 
 
