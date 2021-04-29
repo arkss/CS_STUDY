@@ -1,4 +1,4 @@
-# 03. CORS
+# 01. CORS
 
 ## 01. SOP와 CORS
 
