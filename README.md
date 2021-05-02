@@ -31,19 +31,16 @@
 | 03.28 | OS             | 메모리, 객체지향프로그래밍                                   | -                                             |
 | 04.04 | data structure | 트리, 우선순위 큐, 정렬, 그래프                              | -                                             |
 | 04.10 | data structure | AVL 트리, red black 트리, B 트리, 해싱                       | -                                             |
+| 05.02 | OOP, WEB       | SOLID, CORS, Cookie and Session                              | -                                             |
 
 
 
 ### 다음주 학습 내용
 
-* OOP
-
-  * SOLID
-
 * WEB
 
-  * CORS
-  * Cookie and Session
+  * CSRF, XSS 등 웹 취약점 공격 + SQL injection
+  *  jwt
 
   
 
