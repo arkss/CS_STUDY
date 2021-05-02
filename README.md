@@ -29,29 +29,23 @@
 | 03.06 | OS             | 교착상태                                                     | -                                             |
 | 03.14 | OS             | 가상 메모리,  페이지 교체 알고리즘                           | -                                             |
 | 03.28 | OS             | 메모리, 객체지향프로그래밍                                   | -                                             |
-| 04.04 | data structrue | 트리, 우선순위 큐, 정렬, 그래프                              |                                               |
+| 04.04 | data structure | 트리, 우선순위 큐, 정렬, 그래프                              | -                                             |
+| 04.10 | data structure | AVL 트리, red black 트리, B 트리, 해싱                       | -                                             |
 
 
 
 ### 다음주 학습 내용
 
-* 자료구조
+* OOP
 
-  * AVL 트리
+  * SOLID
 
-  * red black 트리
+* WEB
 
-  * B 트리
+  * CORS
+  * Cookie and Session
 
-  * 해싱
-
-    
-
-
-
-### 다다음주 학습 내용
-
-* SOLID
+  
 
 
 
