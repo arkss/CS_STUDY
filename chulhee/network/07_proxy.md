@@ -136,3 +136,12 @@ OSI 7계층 기준으로 어떤 것을 나누는 지에 따라 로드 밸런서 
   - 배포가 끝나면 8082 포트로!
   - 오류가 있었다면 다시 8081로 포트만 돌리면 된다.
 
+
+
+
+
+
+
+## 레퍼런스
+
+- https://ssungkang.tistory.com/entry/DevOps-Reverse-Proxy-vs-Load-Balancer-%EB%A6%AC%EB%B2%84%EC%8A%A4-%ED%94%84%EB%A1%9D%EC%8B%9C-vs-%EB%A1%9C%EB%93%9C-%EB%B2%A8%EB%9F%B0%EC%84%9C

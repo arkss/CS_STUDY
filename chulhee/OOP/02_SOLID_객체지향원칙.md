@@ -43,6 +43,8 @@
 
 
 
+> **어떤 변화에 의해 클래스를 변경해야 하는 이유는 오직 하나**
+
 
 
 ## 2. 개방 폐쇄의 원칙 (OCP, Open Closed Principle)
@@ -56,11 +58,13 @@
 
 
 
+- 추상화
+
+- 다형성
 
 
 
-
-## 3. 리스코프 치환 원칙 (LSP, LIskov substitution Principle)
+## 3. 리스코프 치환 원칙 (LSP, Liskov substitution Principle)
 
 > 자식 클래스는 부모 클래스에서 가능한 행위는 모두 가능해야 합니다.
 
@@ -68,8 +72,6 @@
 
 잘못된 상속 구현 등의 문제에 대한 내용을 짚고 있으며,
 제대로 설계했다면 부모 클래스의 객체를 자식 클래스의 객체로 치환해도 작동에 문제가 없어야 합니다.
-
-
 
 
 
@@ -161,17 +163,10 @@ public class Main {
 
 - https://gmlwjd9405.github.io/2018/07/05/oop-solid.html
 - [리스코프 치환 원칙 https://pizzasheepsdev.tistory.com/9](https://pizzasheepsdev.tistory.com/9)
-- 
-
-
 
 
 
 ## 질문할 사항
-
-- 
-
-
 
 
 
