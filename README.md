@@ -32,6 +32,8 @@
 | 04.04 | data structure | 트리, 우선순위 큐, 정렬, 그래프                              | -                                             |
 | 04.10 | data structure | AVL 트리, red black 트리, B 트리, 해싱                       | -                                             |
 | 05.02 | OOP, WEB       | SOLID, CORS, Cookie and Session                              | -                                             |
+| 05.16 | WEB            | CSRF, XSS 등 웹 취약점 공격<br>SQL injection<br> JWT         | -                                             |
+|       |                |                                                              |                                               |
 
 
 
@@ -39,10 +41,20 @@
 
 * WEB
 
-  * CSRF, XSS 등 웹 취약점 공격 + SQL injection
-  *  jwt
+  * stateful vs stateless
+  * 네이버 검색 시 동작원리
+* OS
+  * 인터럽트
 
-  
+
+
+### 다다음주 학습 내용
+
+* DB
+  * 격리수준
+* WEB
+  * GraphQL vs REST vs GRPC vs 카프카
+  * 도커 쿠버 virtual machine
 
 
 
