@@ -14,7 +14,9 @@ OSI 7계층이 개념적인 모델이었다면 TCP/IP 4계층은 실무적으로
 
 ### TCP/IP 4계층의 각 계층
 
-<img src="../images/network/06_TCP_IP_계층.png" alt="06_TCP_IP_계층" style="zoom:50%;" />
+![](/Users/rkdalstjd9/Desktop/CS_STUDY/Minsung/images/network/06_TCP_IP_계층.png)
+
+
 
 
 
