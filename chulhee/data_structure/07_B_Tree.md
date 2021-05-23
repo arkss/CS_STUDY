@@ -100,9 +100,7 @@ leaf 노드는 순차 데이터 구조를 연결 리스트로 연결해놓은 �
 **leaf node**의 pointer들은 다음 칸의 key 값에 해당하는 **데이터의 실제 위치**를 저장하며,
 마지막 pointer는 **다음 leaf node의 위치**를 저장합니다.
 
-
-
-
+**B+ Tree의 Inner Node는 Data가 없기 때문에 B-Tree의 Inner Node에 비하여 용량이 작습니다.** 
 
 
 
@@ -140,8 +138,8 @@ B-tree와 거의 동일하게 이루어집니다.
 ## 레퍼런스
 
 - https://velog.io/@mongle/Data-structure-B-tree-B-tree
-
 - https://wangin9.tistory.com/entry/B-tree-B-tree
+- [B-Tree를 index 자료구조로 사용하는 이유 ](https://helloinyong.tistory.com/296)
 
 
 
