@@ -42,7 +42,7 @@ TCP는 송신자와 수신자가 3-way handshaking을 통해 연결을 맺습니
 
 따라서 이에 대한 새로운 대응책이 필요합니다.
 
-![img](https://blog.kakaocdn.net/dn/bNtOsJ/btqzC14OCRf/d9FxSIR0PkgVzrqQu0S2X0/img.png)
+![img](../images/WEB/06_stateful.png)
 
 
 
@@ -52,7 +52,7 @@ TCP는 송신자와 수신자가 3-way handshaking을 통해 연결을 맺습니
 
 
 
-![img](https://blog.kakaocdn.net/dn/K6F9X/btqzCqdwXax/PvudfGUQvnLhJK1qsXNek0/img.png)
+![img](../images/WEB/06_stateless.png)
 
 
 
