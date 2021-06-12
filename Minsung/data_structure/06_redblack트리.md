@@ -55,9 +55,9 @@ red black 트리는 4가지 조건을 가지고 있습니다.
 
 이를 통해 위에서 아래와 같이 노드의 구조가 변경됩니다.
 
-<img src="/Users/rkdalstjd9/Desktop/CS_STUDY/Minsung/images/data_structure/06_redblack2.png" alt="img" style="zoom:33%;" />
+<img src="../images/data_structure/06_redblack2.png" alt="img" style="zoom:33%;" />
 
-<img src="/Users/rkdalstjd9/Desktop/CS_STUDY/Minsung/images/data_structure/06_redblack3.png" alt="img" style="zoom:33%;" />
+<img src="../images/data_structure/06_redblack3.png" alt="img" style="zoom:33%;" />
 
 Restructuring은 다른 서브트리에 영향을 끼치지 않기 때문에 한 번으로 끝나고 자체의 시간 복잡도도 `O(1)` 입니다.
 
@@ -76,9 +76,9 @@ Restructuring은 다른 서브트리에 영향을 끼치지 않기 때문에 한
 
 이를 통해 위에서 아래와 같이 노드의 색이 변경됩니다.
 
-<img src="/Users/rkdalstjd9/Desktop/CS_STUDY/Minsung/images/data_structure/06_redblack4.png" alt="img" style="zoom:33%;" />
+<img src="../images/data_structure/06_redblack4.png" alt="img" style="zoom:33%;" />
 
-<img src="/Users/rkdalstjd9/Desktop/CS_STUDY/Minsung/images/data_structure/06_redblack5.png" alt="img" style="zoom:33%;" />
+<img src="../images/data_structure/06_redblack5.png" alt="img" style="zoom:33%;" />
 
 이 때 4 값을 가지는 노드가 루트 노드라면  `Root Property` 에 의해 black으로 바꿔줍니다.
 
@@ -111,6 +111,12 @@ Recoloring은 시간 복잡도 `O(1)`이지만 Restructuring와 다르게 위로
 즉 가장 극단적인 경우에도 높이 차이가 2배 차이나므로 충분히 균형있다고 말할 수 있습니다.
 
 따라서 red black 트리는 이진탐색트리 중에서도 성능이 가장 좋아 C++의 Map 등 여러 곳에서 사용되고 있습니다.
+
+
+
+AVL 트리와 비교했을 때 AVL 트리는 더 엄격한 균형을 유지하기 때문에 빠르게 조회할 수 있지만 삽입과 삭제 시 균형을 맞추기 위한 작업이 빈번하여 성능이 떨어집니다.
+
+
 
 
 
