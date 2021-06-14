@@ -41,6 +41,7 @@
 
 * DB
   * 격리수준
+  * 샤딩
 * WEB
   * GraphQL vs REST vs GRPC vs 카프카
   * 도커 쿠버 virtual machine
