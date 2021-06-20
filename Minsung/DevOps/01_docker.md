@@ -30,7 +30,7 @@ Docker란 Go언어로 개발된 리눅스 컨테이너 기반 오픈소스 가�
 
 ### VM 가상화 vs 컨테이너 가상화
 
-![img](../images/devOps/01_가상화.png)
+![img](../images/devOps/01_virtual.png)
 
 VM 가상화는 Host OS 위에 Hypervisor 엔진, 그리고 그 위에 Guest OS를 올려 사용합니다. 
 
