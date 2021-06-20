@@ -34,24 +34,17 @@
 | 05.02 | OOP, WEB       | SOLID, CORS, Cookie and Session                              | -                                             |
 | 05.16 | WEB            | CSRF, XSS 등 웹 취약점 공격<br>SQL injection<br> JWT         | -                                             |
 | 05.24 | WEB            | stateful vs stateless<br>네이버 검색 시 동작원리             |                                               |
+| 06.13 | DB, OS         | 격리수준, 인터럽트                                           |                                               |
+| 06.20 | WEB, DevOps    | GraphQL vs REST vs GRPC vs 카프카<br>도커 쿠버네티스         |                                               |
 
 
 
 ### 다음주 학습 내용
 
 * DB
-  * 격리수준
-  * 샤딩
-* WEB
-  * GraphQL vs REST vs GRPC vs 카프카
-  * 도커 쿠버 virtual machine
-
-* OS
-  * 인터럽트
-
-
-
-
+  * 파티셔닝
+  * 레플리카
+  * 옵티마이저
 
 
 
