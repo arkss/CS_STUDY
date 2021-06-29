@@ -8,7 +8,7 @@
 
 ## Clustering의 동작과정
 
-![img](/Users/rkdalstjd9/Desktop/CS_STUDY/Minsung/images/DB/07_Clustering.png)
+![img](../images/DB/07_Clustering.png)
 
 `Clustering`도 다양한 방법이 있지만 그 중 MySQL의 Galera 방식에 동작과정에 대해 알아봅시다.
 
@@ -67,3 +67,14 @@ Standby 상태의 노드는 평소에 사용되지 않고 Active 노드가 장�
 
  `Hot-Standby` 가 그만큼 전환 시간이 빨라 장애 시간을 줄일 수 있지만 가격이 더 드는 단점이 있습니다.
 
+
+
+
+
+## 레퍼런스
+
+https://kgh940525.tistory.com/entry/Database-DB-%EC%84%9C%EB%B2%84%EC%9D%98-%EB%8B%A4%EC%A4%91%ED%99%94Multiplexing-%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%EB%A7%81-%EB%A6%AC%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98Replication
+
+## 질문할 사항
+
+## 추가 공부할 키워드
